@@ -2,7 +2,7 @@
 
 This tool is primarily for Linux users, but if you are a Windows user you can look up how to install WSL2 and download one of the many available distro's to use this script.
 
-You will need to head over to the flips GitHub repo and download the latest release. Make sure to put the `flips` binary in the same folder as the script and do `chmod +x flips` to make it executable.
+You will need to head over to the Flips GitHub repo https://github.com/Alcaro/Flips/releases and download the latest linux release. Make sure to put the `flips` binary in the same folder as the script and do `chmod +x flips` to make it executable.
 
 You will also need to provide your own Super Mario World base rom to patch against and also place it in the same folder as the script as `clean.smc`. I named mine clean.smc because I used ucon64 to make it headerless.
 That last step of removing the header should not be necessary for using this tool, but it is just something I did to have a rom for LunarMagic if I am not mistaken. 
