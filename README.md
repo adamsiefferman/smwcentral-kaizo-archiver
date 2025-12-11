@@ -9,6 +9,8 @@ That last step of removing the header should not be necessary for using this too
 
 running `./smwcentral-kaizo-archiver.py --help` will provide further instruction. The script will download, extract and patch the roms. Playable roms are in the patched dir and the original zips and bps patch files are retained. The script can download kaizo hacks from the awaiting moderation section i.e. hacks that have not been officially moderated and released. If you only want to download one section just use `--section` so for example `./smwcentral-kaizo-archiver.py --advanced`. 
 
+This script has no requirements or dependencies beyond the standard Python library and the `flips` binary plus the need for a smw base rom to patch against. 
+
 ```
 usage: smwcentral-kaizo-archiver.py [-h] [--all] [--newcomer] [--casual] [--intermediate] [--advanced] [--expert] [--master]
                                     [--grandmaster] [--awaiting] [--base-dir BASE_DIR] [--clean-rom CLEAN_ROM] [--flips FLIPS]
