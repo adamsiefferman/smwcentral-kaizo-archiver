@@ -7,7 +7,7 @@ You will need to head over to the Flips GitHub repo https://github.com/Alcaro/Fl
 You will also need to provide your own Super Mario World base rom to patch against and also place it in the same folder as the script as `clean.smc`. I named mine clean.smc because I used ucon64 to make it headerless.
 That last step of removing the header should not be necessary for using this tool, but it is just something I did to have a rom for LunarMagic if I am not mistaken. 
 
-running `./smwcentral-kaizo-archiver.py --help` will provide further instruction.
+running `./smwcentral-kaizo-archiver.py --help` will provide further instruction. The script will download, extract and patch the roms. Playable roms are in the patched dir and the original zips and bps patch files are retained. The script can download kaizo hacks from the awaiting moderation section i.e. hacks that have not been officially moderated and released. If you only want to download one section just use `--section` so for example `./smwcentral-kaizo-archiver.py --advanced`. 
 
 ```
 usage: smwcentral-kaizo-archiver.py [-h] [--all] [--newcomer] [--casual] [--intermediate] [--advanced] [--expert] [--master]
